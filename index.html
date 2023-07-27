@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Formulario de cadastro</title>
+</head>
+<div class="designer">
+<header>
+    <div class="container">
+    <h1>Fomulario de cadastro Aluno Ebac</h1>
+</header>
+<body>
+    
+    <form>
+        <ul>
+            <li>
+                <label for="nome">Nome Completo</label>
+                <input type="text" class="nome" id="nome" name="nome" placeholder=" Seu Nome">
+            </li>
+            <li>
+                <label for="campo-telefone"> Seu Telefone Celular</label>
+                <input type="tel" id="campo-telefone" name="telefone" placeholder="(12) 34567-8901" required />
+            </li>
+            <li>
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" placeholder=" Seuemail@provedor.com">
+            </li>
+            <li>
+                <label for="cpf">CPF</label>
+                <input type="text" class="cpf" id="cpf" name="cpf" placeholder="000.000.000-00">
+            </li>
+            <li>
+                <label for="endereço">Endereço Completo</label>
+                <input type="text" id="endereço" name="endereço" placeholder=" Rua Seu Endereço, 00 - Cidade-SP">
+            </li>
+            <li>
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" placeholder="00000-000">
+            </li>
+            <button type="submit">Cadastrar</button>
+        </ul>
+    </div>
+    </form>
+</div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_PT.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
